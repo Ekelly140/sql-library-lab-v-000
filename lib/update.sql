@@ -1,4 +1,4 @@
 UPDATE characters
-SET species="Martian"
+SET species='Martian'
 HAVING id = MAX(id)
 ;
